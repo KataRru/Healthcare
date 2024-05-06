@@ -1,0 +1,30 @@
+//Import Libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+
+//Styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arima', cursive;
+    font-display: swap;
+}
+
+hr, h1, h2, h3, h4, h5, h5, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+    
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+//Import Blocks
+
+//Import Base
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/media';
