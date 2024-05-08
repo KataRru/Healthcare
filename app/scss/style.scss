@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Arima', cursive;
+    font-family: 'Roboto', sans-serif;
     font-display: swap;
 }
 
@@ -22,7 +22,41 @@ hr, h1, h2, h3, h4, h5, h5, ul, li, a {
     margin: 0 auto;
 }
 
+.btn {
+    background-color: var(--btn-color);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 147%;
+    cursor: pointer;
+    &:hover{
+        color: var(--white-color);
+        background-color: #5b09f3bd;
+        transition: all .3s ease;
+    }
+}
+
+input {
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    outline: none;
+    &:focus {
+        border: 1px solid #bebebe
+    }
+}
+
 //Import Blocks
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+
 
 //Import Base
 @import 'base/variables';
