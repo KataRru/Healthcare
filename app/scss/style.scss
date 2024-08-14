@@ -52,10 +52,17 @@ input {
     }
 }
 
+body {
+    background-color: #b0e2e425;
+}
+
 //Import Blocks
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/advantages';
+@import 'blocks/quality';
+@import 'blocks/service';
+@import 'blocks/certified';
 
 
 //Import Base

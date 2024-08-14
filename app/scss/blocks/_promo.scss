@@ -62,7 +62,7 @@
         border: none;
         border-radius: 5px;
         &:hover {
-            background-color: #5b09f3bd;
+            background-color: var(--hover-color);
             transition: all .3s ease;
         }
     }
