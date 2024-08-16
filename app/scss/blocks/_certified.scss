@@ -45,13 +45,15 @@
     }
 
     &__wrapper {
+        width: 100%;
         margin-top: 70px;
         display: flex;
         justify-content: space-between;
     }
     &__doctors {
         padding: 10px 13px 0 13px;
-        width: 267px;
+        margin: 0 18px 0 18px;
+        width: 100%;
         height: 400px;
         background-color: var(--white-color);
         border-radius: 13px;
@@ -85,11 +87,11 @@
             cursor: pointer;
         }
         &-btn {
-            position: absolute;
+            position: relative;
             left: 50%;
             transform: translate(-50%);
             width: 195px;
-            height: 47px;
+            min-height: 47px;
             margin-top: 67px;
             background-color: var(--btn-color);
             border: none;
