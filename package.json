@@ -9,7 +9,9 @@
   "author": "Vlad",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "animate.css": "^4.1.1",
+    "gulp": "^4.0.2",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "browser-sync": "^2.27.10",

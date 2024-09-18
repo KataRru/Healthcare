@@ -9,6 +9,9 @@
     <link rel="icon" type="image/ico" href="img/icons/favicon/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -54,7 +57,7 @@
                 <div class="promo__find">
                     <input class="promo__doctor" placeholder="Find your doctor" type="search">
                     <input class="promo__country" placeholder="New York, USA" type="text">
-                    <input class="promo__search" type="button">
+                    <input class="promo__btn" type="button">
                 </div>
             </div>
 
@@ -64,42 +67,44 @@
         </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages wow animate__animated animate__fadeIn">
         <div class="container">
-            <h2 class="advantages__title">3 Easy Steps and Get Your Solution</h2>
-            <div class="advantages__steps">
-                <div class="advantages__items">
-                    <div class="advantages__img">
-                        <img src="https://i.ibb.co/dD8MW3V/search.png" alt="search">
+            <div class="advantages__wrapper">
+                <h2 class="advantages__title">3 Easy Steps and Get Your Solution</h2>
+                <div class="advantages__steps ">
+                    <div class="advantages__items">
+                        <div class="advantages__img">
+                            <img src="https://i.ibb.co/dD8MW3V/search.png" alt="search">
+                        </div>
+                        <h3 class="advantages__subtitle">Find best doctor’s</h3>
+                        <div class="advantages__text">
+                            <p>Find your doctor easily with a minimum of effort. We've kept everything organised for you.</p>
+                        </div>
                     </div>
-                    <h3 class="advantages__subtitle">Find best doctor’s</h3>
-                    <div class="advantages__text">
-                        <p>Find your doctor easily with a minimum of effort. We've kept everything organised for you.</p>
+                    <div class="advantages__items">
+                        <div class="advantages__img">
+                            <img src="https://i.ibb.co/nbKzN7q/calendar.png" alt="calendar">
+                        </div>
+                        <h3 class="advantages__subtitle">Get Appointment</h3>
+                        <div class="advantages__text">
+                            <p>Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="advantages__items">
-                    <div class="advantages__img">
-                        <img src="https://i.ibb.co/nbKzN7q/calendar.png" alt="calendar">
+                    <div class="advantages__items">
+                        <div class="advantages__img">
+                            <img src="https://i.ibb.co/vP1VpN4/app.png" alt="app">
+                        </div>
+                        <h3 class="advantages__subtitle">Happy Consultations</h3>
+                        <div class="advantages__text">
+                            <p>Do consultations and  take the service based on your appointment. Get back to good health</p>
+                        </div>
                     </div>
-                    <h3 class="advantages__subtitle">Get Appointment</h3>
-                    <div class="advantages__text">
-                        <p>Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest.</p>
-                    </div>
-                </div>
-                <div class="advantages__items">
-                    <div class="advantages__img">
-                        <img src="https://i.ibb.co/vP1VpN4/app.png" alt="app">
-                    </div>
-                    <h3 class="advantages__subtitle">Happy Consultations</h3>
-                    <div class="advantages__text">
-                        <p>Do consultations and  take the service based on your appointment. Get back to good health</p>
-                    </div>
-                </div>
-            </div> 
+                </div> 
+            </div>
         </div>
     </section>
 
-    <section class="quality">
+    <section class="quality wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="quality__wrapper">
                 <div class="quality__img">
@@ -137,14 +142,14 @@
         </div>
     </section>
 
-    <section class="service">
+    <section class="service wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="service__wrapper">
                 <h2 class="service__title">Our Service</h2>
                 <h3 class="service__subtitle">Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</h3>
                 <div class="service__items">
                     <div class="service__item">
-                        <div class="service__item-img">
+                        <div class="service__item-img wow pulse" data-wow-iteration="50000">
                             <img src="img/icons/Cardiology.jpg" alt="cardio">
                         </div>
                         <div class="service__item-title">
@@ -157,7 +162,7 @@
                         <div class="service__item-line" id="cardio"></div>
                     </div>
                     <div class="service__item">
-                        <div class="service__item-img">
+                        <div class="service__item-img wow pulse" data-wow-iteration="50000">
                             <img src="img/icons/Pulmonology.jpg" alt="pulmo">
                         </div>
                         <div class="service__item-title">
@@ -170,7 +175,7 @@
                         <div class="service__item-line" id="pulmo"></div>
                     </div>
                     <div class="service__item">
-                        <div class="service__item-img">
+                        <div class="service__item-img wow pulse" data-wow-iteration="50000">
                             <img src="img/icons/Medicine.jpg" alt="medicine">
                         </div>
                         <div class="service__item-title">
@@ -187,7 +192,7 @@
         </div>
     </section>
 
-    <section class="certified">
+    <section class="certified wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="certified__items">
                 <h2 class="certified__title">
@@ -264,7 +269,7 @@
         </div>
     </section>
 
-    <section class="mobile">
+    <section class="mobile wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="mobile__wrapper">
                 <div class="mobile__img"><img src="/img/Mobile.png" alt="mobile"></div>
@@ -272,15 +277,15 @@
                     <h2 class="mobile__items-title">Mobile apps are available Get HealthCare for free!</h2>
                     <div class="mobile__items-text">Get on-demand access to a doctor on your phone with the free HealthCare mobile app. Download and register on our app for free and feel safe for all your family</div>
                     <div class="mobile__items-download">
-                        <img src="/img/icons/apps/Google_Play.jpg" alt="google">
-                        <img src="/img/icons/apps/App_Store.jpg" alt="App">
+                        <a href="#"><img src="/img/icons/apps/Google_Play.jpg" alt="google"></a>
+                        <a href="#"><img src="/img/icons/apps/App_Store.jpg" alt="App"></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="slider">
+    <section class="slider wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="slider__wrapper">
                 <h2 class="slider__title">Look our Clients have to say about us</h2>
@@ -328,9 +333,88 @@
             </div>
         </div>
     </section>
+
+    <section class="appoiment wow animate__animated animate__fadeIn">
+        <div class="container">
+            <div class="appoiment__wrapper">
+                <div class="appoiment__items">
+                    <h2 class="appoiment__title">It’s time change your <br> life today</h2>
+                    <button class="appoiment__btn">Book an Appoinment </button>
+                </div>
+                <div class="appoiment__img"><img src="img/appoiment.png" alt="appoiment"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer wow animate__animated animate__fadeIn">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__contacts">
+                    <div class="footer__logo"><img src="img/logo.jpg" alt="logo"></div>
+                    <div class="footer__location">
+                        <a href="https://www.google.com.ua/maps/search/Metairie,+3689++Bassel+Street,+LA,+Louisiana/@30.0013645,-90.2204694,13z?hl=ru&entry=ttu">Metairie, 3689  Bassel Street, LA, Louisiana</a>
+                    </div>
+                    <div class="footer__number">Contact us: <a href="tel:2257885489">225-788-5489</a></div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__facebook">
+                            <img class="footer__img" src="img/icons/footer/fb.jpg" alt="fb">
+                        </a>
+                        <a href="#" class="footer__instagram">
+                            <img class="footer__img" src="img/icons/footer/In.jpg" alt="in">
+                        </a>
+                        <a href="#" class="footer__twitter">
+                            <img class="footer__img" src="img/icons/footer/tw.jpg" alt="tw">
+                        </a>
+                        <a href="#" class="footer__youtube">
+                            <img class="footer__img" src="img/icons/footer/Yt.jpg" alt="yt">
+                        </a>
+                    </div>
+                </div>
+
+                <menu class="menu">
+                    <ul class="footer__menu">
+                        <div class="footer__category">
+                            <li class="footer__link"><h3>Category</h3></li>
+                            <li class="footer__link"><a href="#">Home</a></li>
+                            <li class="footer__link"><a href="#">About</a></li>
+                            <li class="footer__link"><a href="#">Services</a></li>
+                            <li class="footer__link"><a href="#">Reviews</a></li>
+                            <li class="footer__link"><a href="#">Article</a></li>
+                        </div>
+                        <div class="footer__about">
+                            <li class="footer__link"><h3>About</h3></li>
+                            <li class="footer__link"><a href="#">Partners</a></li>
+                            <li class="footer__link"><a href="#">Careers</a></li>
+                            <li class="footer__link"><a href="#">Press</a></li>
+                            <li class="footer__link"><a href="#">Community</a></li>
+                        </div>
+                    </ul>
+                </menu>
+
+                <div class="footer__subscribe">
+                    <div class="footer__subscribe-title">Subscribe newsletter</div>
+                    <div class="footer__subscribe-subtitle">Sign up for tips, new destinations, and <br> exclusive promos.</div>
+                    <input class="footer__subscribe-mail" placeholder="Enter your email" type="email">
+                    <div class="footer__subscribe-btn btn">Subcribe</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer__inner">
+                <div class="footer__copyright">© 2021 Healthcare - All rights reserved.</div>
+                <div class="footer__policy">
+                    <div class="footer__item"><a href="">Privacy</a></div>
+                    <div class="footer__item"><a href="">Security</a></div>
+                    <div class="footer__item"><a href="">Terms</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -15,6 +15,9 @@
 hr, h1, h2, h3, h4, h5, h5, ul, li, a {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
 }
     
 .container {
@@ -36,7 +39,7 @@ hr, h1, h2, h3, h4, h5, h5, ul, li, a {
     cursor: pointer;
     &:hover{
         color: var(--white-color);
-        background-color: #5b09f3bd;
+        background-color: var(--hover-color);
         transition: all .3s ease;
     }
 }
@@ -65,6 +68,8 @@ body {
 @import 'blocks/certified';
 @import 'blocks/mobile';
 @import 'blocks/slider';
+@import 'blocks/appoiment';
+@import 'blocks/footer';
 
 //Import Base
 @import 'base/variables';
