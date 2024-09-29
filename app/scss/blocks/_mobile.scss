@@ -8,7 +8,7 @@
     }
 
     &__img {
-        width: 100%;
+        width: 50%;
         height: 100%;
         img {
             width: 100%;
@@ -17,7 +17,7 @@
     }
 
     &__items {
-        width: 900px;
+        width: 50%;
         min-height: 100%;
         &-title {
             margin-top: 60px;
@@ -35,15 +35,17 @@
             color: gray;
         }
         &-download {
-            max-width: 306px;
+            width: 100%;
             margin-top: 30px;
             display: flex;
             a {
-                width: 100%;
                 border-radius: 7px;
                 &:nth-child(1) {
                     margin: 0 13px 0 0;
                 }
+            }
+            img {
+                width: 100%;
             }
         }
     }

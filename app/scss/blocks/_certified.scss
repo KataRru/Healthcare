@@ -46,20 +46,21 @@
 
     &__wrapper {
         width: 100%;
-        margin-top: 70px;
-        display: flex;
-        justify-content: space-between;
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 267px);
+        gap: 30px;
     }
     &__doctors {
         padding: 10px 13px 0 13px;
-        margin: 0 18px 0 18px;
+        margin: 0 auto;
         width: 100%;
-        height: 400px;
+        min-height: 300px;
         background-color: var(--white-color);
         border-radius: 13px;
         &-img {
-            width: 241px;
-            min-height: 249px;
+            width: 100%;
             img {
                 width: 100%;
                 height: 100%;
@@ -80,7 +81,7 @@
             text-align: center;
         }
         &-social {
-            padding-top: 17px;
+            margin: 17px 0 15px 0;
             text-align: center;
         }
         &-media {

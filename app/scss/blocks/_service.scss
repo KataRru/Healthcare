@@ -29,8 +29,9 @@
     
     &__item {
         position: relative;
-        width: 349px;
+        width: 33%;
         height: 316px;
+        margin: 0 10px 0 10px;
         text-align: center;
         background-color: var(--white-color);
         border-radius: 10px;
@@ -46,7 +47,7 @@
             text-align: center;
         }
         &-text {
-            width: 245px;
+            width: 100%;
             min-height: 80px;
             margin: 23px auto 0 auto;
             font-weight: 400;

@@ -18,10 +18,10 @@ $(document).ready(function(){
                 }
                 },
                 {
-                breakpoint: 600,
+                breakpoint: 620,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     dots: true
                 }
                 },
@@ -54,3 +54,17 @@ let wow = new WOW(
     }
   );
   wow.init();
+
+//BURGER 
+
+const burger = document.querySelector('.burger'),
+    menu = document.querySelector('.burger__menu'),
+    closeElem = document.querySelector('.burger__menu-close')
+
+burger.addEventListener('click', () => {
+    menu.classList.add('active');
+});
+
+closeElem.addEventListener('click', () => {
+    menu.classList.remove('active');
+});
