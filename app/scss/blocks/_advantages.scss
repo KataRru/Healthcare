@@ -15,10 +15,12 @@
         justify-content: space-between;
         align-items: center;
     }
+    
     &__items {
         width: 30%;
-        min-height: 130px;
+        height: 210px;
     }
+
     &__img {
         width: 80px;
         height: 80px;
@@ -27,7 +29,9 @@
         border-radius: 50%;
         text-align: center;
     }
+
     img {
+        width: 60%;
         display: block;
         margin: 0 auto;
         padding: 15px 0;

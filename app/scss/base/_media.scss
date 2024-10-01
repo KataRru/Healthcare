@@ -33,6 +33,10 @@
         &__wrapper {
             height: 300px;
         }
+
+        &__img {
+            width: 50%;
+        }
     }
 
     .certified {
@@ -94,6 +98,10 @@
         &__title {
             margin: 35px 0 0 100px;
             font-size: 35px;
+        }
+
+        &__img {
+            width: 50%;
         }
     }
 
@@ -193,7 +201,7 @@
         }
 
         &__img {
-            width: 56%;
+            width: 60%;
         }
     }
 
@@ -405,6 +413,173 @@
     
 }
 
-@media (max-width:390px) {
+@media (max-width:390px) { 
+    .promo {
+        &__wrapper {
+            padding-top: 60px;
+        }
 
+        &__items {
+            width: 100%;
+        }
+
+        &__text {
+            color: rgba(110, 95, 95, 1);
+        }
+    
+        &__find {
+            width: 100%;
+            margin-top: 40px;
+        }
+    
+        &__img {
+            height: none;
+        }
+    }
+
+    .advantages {
+        &__title {
+                font-size: 20px;
+        } 
+
+        &__subtitle {
+                font-size: 11px;
+        }
+
+        &__img {
+            width: 60px;
+            height: 60px;
+        }
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .quality {
+        &__title {
+            font-size: 15px;
+        }
+
+        &__text {
+            font-size: 10px;
+        }
+
+        &__service {
+            &-text {
+                font-size: 9px;
+            }
+
+            &-img {
+                img {
+                    width: 85%;
+                    height: 85%;
+                }
+            }
+        }
+    }
+
+    .service {
+        &__title {
+            font-size: 20px;
+        }
+
+        &__subtitle {
+            font-size: 11px;
+        }
+
+        &__item {
+            height: 250px;
+            &-title {
+                font-size: 13px;
+            }
+
+            &-text {
+                font-size: 9px;
+                margin: 15px auto 0 auto;
+            }
+
+            &-img {
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .certified {
+        margin-top: 20px;
+        &__title {
+            font-size: 20px;
+        }
+
+        &__subtitle {
+            font-size: 10px;
+        }
+    }
+
+    .mobile {
+        min-height: 260px;
+        &__items {
+            &-title {
+                font-size: 15px;
+            }
+
+            &-text {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .appoiment {
+        height: 160px;;
+        &__wrapper {
+            height: 150px;
+        }
+
+        &__title {
+            font-size: 20px;
+            margin: 10px 0 0 10px;
+        }
+
+        &__btn {
+            margin: 20px 0 0 10px;
+            width: 180px;
+            height: 40px;
+            font-size: 12px;
+        }
+
+        &__img {
+            width: 70%;
+        }
+    }
+
+    .footer {
+        margin-top: 90px;
+        &__logo {
+            font-size: 20px;
+        }
+
+        &__contacts {
+            width: 50%;
+        }
+
+        &__location {
+            font-size: 10px;
+            margin-top: 0;
+        }
+
+        &__number {
+            font-size: 10px;
+        }
+
+        &__img {
+            width: 60%;
+        }
+
+        &__copyright {
+            font-size: 8px;
+        }
+    }
 }
