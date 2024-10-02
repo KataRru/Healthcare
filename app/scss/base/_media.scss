@@ -319,14 +319,6 @@
 
     .advantages {
         &__steps {
-            flex-direction: column;
-        }
-
-        &__items {
-            width: 80%;
-        }
-
-        &__steps {
             margin-top: 50px;
         }
 
@@ -339,7 +331,7 @@
         }
 
         &__text {
-            font-size: 14px;
+            font-size: 10px;
         }
     }
 
@@ -417,10 +409,6 @@
         &__logo {
             font-size: 25px;
         }
-
-        &__item {
-            margin: 0 20px 0 20px;
-        }
     }
     
 }
@@ -443,6 +431,10 @@
             width: 100%;
             margin-top: 40px;
         }
+    
+        &__img {
+            height: none;
+        }
     }
 
     .advantages {
@@ -452,10 +444,6 @@
 
         &__subtitle {
                 font-size: 11px;
-        }
-
-        &__text {
-            font-size: 10px;
         }
 
         &__img {
@@ -592,24 +580,6 @@
 
         &__copyright {
             font-size: 8px;
-        }
-    }
-}
-
-@media (max-width:320px) {
-    .promo {
-        &__btn {
-            width: 60%;
-        }
-
-        &__img {
-            height: 65%;
-        }
-    }
-
-    .advantages {
-        &__title {
-            font-size: 18px;
         }
     }
 }
