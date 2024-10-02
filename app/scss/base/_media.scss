@@ -147,6 +147,10 @@
             height: 450px;
         }
 
+        &__img {
+            height: 90%;
+        }
+
         &__items {
             padding-top: 10px;
         }
@@ -315,23 +319,33 @@
         &__text {
             width: 250px;
         }
+
+        &__btn {
+            width: 100%;
+            height: 70%;
+        }
     }
 
     .advantages {
-        &__steps {
-            margin-top: 50px;
-        }
-
         &__title {
             font-size: 25px;
         }
 
+        &__steps {
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        &__items {
+            width: 80%;
+        }
+
         &__subtitle {
-            font-size: 15px;
+            font-size: 17px;
         }
 
         &__text {
-            font-size: 10px;
+            font-size: 14px;
         }
     }
 
@@ -431,9 +445,14 @@
             width: 100%;
             margin-top: 40px;
         }
+
+        &__btn {
+            width: 50%;
+            height: 70%;
+        }
     
         &__img {
-            height: none;
+            height: 70%;
         }
     }
 
@@ -492,14 +511,16 @@
             height: 250px;
             &-title {
                 font-size: 13px;
+                margin-top: 10px;
             }
 
             &-text {
                 font-size: 9px;
-                margin: 15px auto 0 auto;
+                margin: 10px auto 0 auto;
             }
 
             &-img {
+                margin-top: 25px;
                 img {
                     width: 50px;
                     height: 50px;
@@ -580,6 +601,24 @@
 
         &__copyright {
             font-size: 8px;
+        }
+
+        &__item {
+            margin: 0 15px 0 15px;
+        }
+
+        &__subscribe {
+            &-subtitle{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .promo {
+        &__img {
+            height: 70%;
         }
     }
 }
