@@ -1,0 +1,138 @@
+.slider {
+    position: relative;
+    margin-top: 20px;
+    &__title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 42px;
+        letter-spacing: 0.02em;
+    }
+    
+    &__items {
+        margin-top: 100px;
+    }
+
+    &__item {
+        position: relative;
+        margin: 20px 15px 0 15px;
+        width: 373px;
+        height: 400px;
+        background-color: var(--white-color);
+        border-radius: 10px;
+        &::after {
+            content: url(..//..//img/icons/quotation-marks.png);
+            padding: 10px 13px;
+            display: block;
+            position: absolute;
+            top: -20px;
+            right: 30px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--btn-color);
+        }
+        &-photo {
+            display: block;
+            margin: 20px auto 0 auto;
+            border-radius: 50%;
+        }
+        &-name {
+            margin: 10px 0 0 50px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        &-country  {
+            margin: 5px 0 0 50px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 179%;
+            color: var(--btn-color);
+        }
+        &-stars {
+            width: 65px;
+            position: absolute;
+            right: 30px;
+            top: 97px;
+        }
+        &-text {
+            margin: 20px 0 0 45px;
+            width: 300px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 156%;
+        }
+    }
+}
+
+//SLICK-SLIDER
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    height: 400px;
+    overflow: hidden;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 60%;
+    width: 33px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0;
+    z-index: 10;
+    &:hover {
+        background-color: var(--hover-color);
+        transition: .1s;
+    }
+}
+
+.slick-prev {
+    left: 20px;
+    background: url(..//..//img/icons/slider/left-arrow-blue.png) center / 40% no-repeat;
+    background-color: var(--grey-color);
+    &:hover {
+        background: url(..//../img/icons/slider/left-arrow.png) center / 40% no-repeat;
+        background-color: var(--btn-color);
+        transition: .4s all;
+    }
+}
+
+.slick-next {
+    right: 20px;
+    background: url(..//..//img/icons/slider/right-arrow-blue.png) center / 40% no-repeat;
+    background-color: var(--grey-color);
+    &:hover{
+        background: url(..//../img/icons/slider/right-arrow.png) center / 40% no-repeat;
+        background-color: var(--btn-color);
+        transition: .4s all;
+    }
+}
+
+.slick-dots {
+    display: flex;
+    margin-top: 30px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.slick-dots li{
+    list-style: none;
+}
+
+.slick-dots button {
+    font-size: 0;
+    margin: 0 3px 0 3px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--btn-color);
+    border: none;
+}

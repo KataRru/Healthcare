@@ -1,0 +1,78 @@
+//Import Libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+
+//Styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+}
+
+hr, h1, h2, h3, h4, h5, h5, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+    
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 147%;
+    cursor: pointer;
+    &:hover{
+        color: var(--white-color);
+        background-color: var(--hover-color);
+        transition: all .3s ease;
+    }
+}
+
+input {
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    outline: none;
+    &:focus {
+        border: 1px solid #bebebe
+    }
+}
+
+body {
+    background-color: #b0e2e425;
+}
+
+//Import Blocks
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/quality';
+@import 'blocks/service';
+@import 'blocks/certified';
+@import 'blocks/mobile';
+@import 'blocks/slider';
+@import 'blocks/appoiment';
+@import 'blocks/footer';
+@import 'blocks/burger';
+
+//Import Base
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/media';
